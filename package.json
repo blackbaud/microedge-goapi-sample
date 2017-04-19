@@ -1,0 +1,24 @@
+{
+  "name": "microedge-goapi-sample",
+  "version": "1.0.0",
+  "description": "- Ensure NodeJS is installed. - Get a user ID and private key that can access the GO API. - Get the legacy ID of a Contact in the system. - Execute: `node test.js -u (user ID goes here) -k (private key goes here) -i (contact ID goes here)`",
+  "main": "test.js",
+  "dependencies": {
+    "request": "^2.81.0",
+    "yargs": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackbaud/microedge-goapi-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackbaud/microedge-goapi-sample.git/issues"
+  },
+  "homepage": "https://github.com/blackbaud/microedge-goapi-sample#readme"
+}
