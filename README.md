@@ -1,0 +1,4 @@
+- Ensure NodeJS is installed.
+- Get a user ID and private key that can access the GO API.
+- Get the legacy ID of a Contact in the system.
+- Execute: `node test.js -u (user ID goes here) -k (private key goes here) -i (contact ID goes here)`
