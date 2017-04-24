@@ -56,7 +56,8 @@ request.post(
 							console.log('Contact not found');
 						}
 					} else {
-						console.log('There was an error retrieving the contact: ' + contactResponse.body.message);
+						console.log('There was an error retrieving the contact:');
+						console.log(contactResponse);
 					}
 				});
         }
